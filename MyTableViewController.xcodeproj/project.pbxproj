@@ -13,6 +13,7 @@
 		DAA4940A27F99DAB00660A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA4940827F99DAB00660A83 /* Main.storyboard */; };
 		DAA4940C27F99DAC00660A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA4940B27F99DAC00660A83 /* Assets.xcassets */; };
 		DAA4940F27F99DAC00660A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA4940D27F99DAC00660A83 /* LaunchScreen.storyboard */; };
+		DAA4941727F99DFC00660A83 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4941627F99DFC00660A83 /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DAA4940B27F99DAC00660A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAA4940E27F99DAC00660A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAA4941027F99DAC00660A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA4941627F99DFC00660A83 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DAA4940B27F99DAC00660A83 /* Assets.xcassets */,
 				DAA4940D27F99DAC00660A83 /* LaunchScreen.storyboard */,
 				DAA4941027F99DAC00660A83 /* Info.plist */,
+				DAA4941627F99DFC00660A83 /* MyTableViewController.swift */,
 			);
 			path = MyTableViewController;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				DAA4940727F99DAB00660A83 /* ViewController.swift in Sources */,
 				DAA4940327F99DAB00660A83 /* AppDelegate.swift in Sources */,
 				DAA4940527F99DAB00660A83 /* SceneDelegate.swift in Sources */,
+				DAA4941727F99DFC00660A83 /* MyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
